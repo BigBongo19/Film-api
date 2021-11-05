@@ -1,5 +1,5 @@
 <?php
-include('login.php');
+include('getToken.php');
 class JWT
 {
 
