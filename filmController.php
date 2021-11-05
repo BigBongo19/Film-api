@@ -1,6 +1,7 @@
 <?php
 // Film.php meegeven om de getters en setters te kunnen herkennen.
 include('film.php');
+include('JWT.php');
 
 $authLvl = $_SERVER['HTTP_AUTHLVL'];
 

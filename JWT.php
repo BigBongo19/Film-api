@@ -5,7 +5,6 @@ class JWT
 
     function createToken($userID, $username, $authlvl)
     {
-
         // hier creëren we de header in JSON formaat met informatie over de token
         $header = '{ "typ": "JWT", "alg": "HS256" }';
         $header = base64_encode($header); // omzetten naar BASE64 URL om het te kunnen gebruiken
